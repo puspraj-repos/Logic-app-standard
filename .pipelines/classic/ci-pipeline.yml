@@ -18,7 +18,8 @@ jobs:
     inputs:
       SourceFolder: '$(System.DefaultWorkingDirectory)'
       Contents: |
-        logic/**
+        Workflow1/**
+# modifying previous value of logic to workflow1, as this is the name of workflow
       TargetFolder: 'project_output'
 
   - task: ArchiveFiles@2
